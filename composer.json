@@ -9,6 +9,11 @@
         "php": ">=7.2.0"
     },
     "license": "MIT",
+	"autoload": {
+        "psr-4": {
+            "Fondboy\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "林伟平",
